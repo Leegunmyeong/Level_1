@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "NOTOSERIFKR-VF";
+    src: url("/Level_1/Task/fonts/NOTOSERIFKR-VF.TTF");
+}
+
+.recipe_container {
+    background-color: beige;
+    width: 100%;
+    max-width: 652px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.picture_01 {
+    width: 100%;
+}
+
+.picture_01 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.photo_desc {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.recipe_title {
+    text-align: left;
+}
+
+.photo_desc h3 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'NOTOSERIFKR-VF';
+
+}
+
+.photo_desc h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'NOTOSERIFKR-VF';
+}
+
+.function_button {
+    display: flex;
+    gap: 30px;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.level_time {
+    display: flex;
+    gap: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 24px;
+    text-align: left;
+}
+
+.level {
+    display: flex;
+    gap: 25px;
+}
+
+.icon .fas {
+    color: brown;
+}
+
+.icon .far {
+    color: brown;
+}
+
+.icon {
+    margin-top: 15px;
+}
+
+.time {
+    display: flex;
+    gap: 30px;
+}
+
+.Authorlogo {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.Author_contents {
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+}
+.Authortitle_all {
+    margin-top: 10px;
+}
+
+.fa-share-alt {
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.share_detail_text {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.fa-bookmark {
+    font-size: 20px;
+    padding-right: 8px;
+    opacity: 0.3;
+}
+
+.bookmark_detail_text {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    opacity: 0.3;
+}
