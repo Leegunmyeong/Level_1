@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>videotest</title>
+    <link rel="shortcut icon" href="./image_video/images/common_cart02.png" type="image/x-icon"
+        media="(prefers-color-scheme: light)">
+</head>
+
+<body>
+    <!-- 바로가기 링크 -->
+     <div id="top">
+        <a href="#href1">절대경로</a>
+        <a href="#href2">상대경로</a>
+        <a href="#href3">경로와이미지</a>
+        <a href="#href4">비디오학습</a>
+        <a href="#iframe1">비디오</a>
+     </div>
+    <h1>링크태그</h1>
+    <div id="href1">
+        <h2>절대경로</h2>
+        <p>실제 서비스도는 웹 주소(구글,네이버 등)</p>
+        <a href="https://google.com" target="_blank">Google</a>
+    </div>
+
+    <div id="href2">
+        <h2>상대경로</h2>
+        <p>현재 작업파일 위치 기준으로 상대적인 파일, 폴더 주소</p>
+        <a href="./link02.html">link02 바로가기</a>
+        <a href="./image_video/images/banner02_img01.png">이미지보기</a>
+        <img src="./image_video/images/color_case.jpg" alt="칼라케이스">
+    </div>
+    <a href="#top" class="top_btn">Home버튼을 누르세요</a>
+    <div id="href3">
+        <h2>상대경로+이미지</h2>
+        <a href="https://apple.com" target="_blank"><img src="./image_video/images/ico_ios.gif" alt="IOS"></a>
+        <h2>연습</h2>
+        <a href="./strat.html">상대경로 바로가기</a>
+        <a href="./image_video/images/detail_icon_wish.png"><img src="./image_video/images/detail_icon_wish.png"
+                alt="하트"></a>
+    </div>
+    <a href="#top" class="top_btn">Home버튼을 누르세요</a>
+    <div id="href4">
+        <h2>상대경로 비디오</h2>
+        <video src="./image_video/video/cat.mp4" autoplay loop></video>
+        <video src="./image_video/video/coffee.mp4" autoplay muted></video>
+        <video src="./image_video/video/forest.mp4" controls></video>
+        <p>상대경로 위치에 mp4 등과 같은 영상파일이 있는 경우만 사용</p>
+    </div>
+    <div id="iframe1">
+        <iframe width="458" height="815"
+            src="https://www.youtube.com/embed/vYuER_3og_M?playlist=vYuER_3og_M&autoplay=1&loop=1&mute=1"
+            title="개발자 빡치게 하는 법" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <a href="#top" class="top_btn">Home버튼을 누르세요</a>
+</body>
+</html>
