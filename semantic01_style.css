@@ -1,0 +1,19 @@
+.chronological_order a+ a::before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    background-color: #ccc;
+    margin: 0 12px;
+    vertical-align: middle;
+}
+
+.footer_policy a + a::before {
+    content: "";
+    display: inline-block;
+    width: 1px; /* 선 두께 */
+    height: 11px; /* 선 높이 */
+    background-color: #ccc; /* 선색상 */
+    margin: 0 12px; /* 선 좌우 간격 (여백) */
+    vertical-align: middle; /* 글자 높낮이 맞추기 */
+}
