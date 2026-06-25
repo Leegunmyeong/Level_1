@@ -1,4 +1,4 @@
-.chronological_order a+ a::before {
+.chronological_order a + a::before {
     content: "";
     display: inline-block;
     width: 1px;
